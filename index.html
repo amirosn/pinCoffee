@@ -41,9 +41,12 @@
         <div class="menu-page">
             <img src="Nov2025.png" alt="Coffee Menu Page 1">
         </div>
+        <div id="qrcode"></div>
         <!-- <div class="menu-page">
             <img src="menu-page2.jpg" alt="Coffee Menu Page 2">
         </div> -->
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@gh-pages/qrcode.min.js"></script>
+<script type="text/javascript"> var qrcode = new QRCode(document.getElementById("qrcode"), { text: "https://amirosn.github.io/pinCoffee/", width: 128, height: 128, colorDark : "#000000", colorLight : "#ffffff", correctLevel : QRCode.CorrectLevel.H }); </script>
 </html>
